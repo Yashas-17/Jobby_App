@@ -1,0 +1,28 @@
+.ul-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.label-ele {
+  color: white;
+  margin-left: 10px;
+}
+li {
+  margin: 12px;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  height: 40vh;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 8px;
+}
+.name,
+.bio {
+  color: black;
+}

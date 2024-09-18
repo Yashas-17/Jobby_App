@@ -1,0 +1,60 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: hwb(0 20% 80%);
+  padding: 10px 0;
+  width: 100%;
+}
+
+.nav-ul-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  max-width: 95%;
+}
+
+.ul-container li {
+  margin: 0 20px;
+}
+
+.logo {
+  width: 95%; /* Adjust as needed */
+  height: auto;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+Link {
+  text-decoration: none;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.home-jobs-container {
+  display: flex;
+}
+.logout-button {
+  margin-left: auto;
+}
+
+.logout-button button {
+  background-color: #5a67d8; /* Button background color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button button:hover {
+  background-color: #434190; /* Button hover color */
+}
